@@ -1,5 +1,6 @@
 import 'package:akthar/constants/app_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HeadingText extends StatelessWidget {
   final String text;
@@ -26,7 +27,7 @@ class HeadingText extends StatelessWidget {
       overflow: TextOverflow.ellipsis,
       maxLines: maxLines,
       style: TextStyle(
-        fontSize: fontSize,
+        fontSize: fontSize.sp,
         fontWeight: fontWeight,
         color: color ?? headingColorBK,
         // shadows: const <Shadow>[
