@@ -1,5 +1,4 @@
 import 'package:akthar/constants/app_icons.dart';
-import 'package:akthar/widgets/heading_text.dart';
 import 'package:flutter/material.dart';
 
 class HomeTab extends StatelessWidget {
